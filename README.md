@@ -1,6 +1,15 @@
 # robox-iot
 基于MQTT + SpringBoot + MQTTX + EMQX的机器开舱与设备上报机器状态。
 
+上行：
+设备 -> MQTT -> EMQX -> Spring Boot
+
+下行：
+HTTP -> Spring Boot -> MQTT -> EMQX -> 设备
+
+完整：
+设备上报 -> 服务端处理 -> 指令下发 -> 设备执行 -> 结果回执
+
 # 1.什么是物联网
 
 1.物联网，英文名 **iot**。
