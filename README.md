@@ -1,3 +1,11 @@
+# 配置
+MQTTX
+<img width="1920" height="982" alt="设备成功接到开舱指令" src="https://github.com/user-attachments/assets/46fd9d4f-5ab9-4474-8b10-241085122ec5" />
+设备端配置
+<img width="1920" height="982" alt="设备端配置" src="https://github.com/user-attachments/assets/53df2884-5d1e-4c78-ad41-b77dbdc02b2f" />
+服务端收到数据
+<img width="1920" height="1032" alt="服务端接到设备指令" src="https://github.com/user-attachments/assets/0af58e68-385d-44d3-a195-6f8546717dc1" />
+
 # robox-iot
 基于MQTT + SpringBoot + MQTTX + EMQX的机器开舱与设备上报机器状态。
 
